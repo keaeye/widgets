@@ -34,8 +34,8 @@ function Footer() {
         {footerHtml && <div dangerouslySetInnerHTML={{__html: footerHtml}}/>}
         <p className='text-sm text-neutral-500 font-normal link-line'>
                     <span>
-                        © 2024 Powered by <a className='hover:underline' href="https://keaeye.fun/keaeye"
-                                             target="_blank">Prop</a>
+                        © 2024 Powered by <a className='hover:underline' href="https://keaeye.fun"
+                                             target="_blank">Keaeye</a>
                     </span>
           {conf.get<boolean>('rss') && <>
             <Spliter/>
