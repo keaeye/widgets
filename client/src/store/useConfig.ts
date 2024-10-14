@@ -18,7 +18,7 @@ type Config = {
 
 export const init_config: Config = {
   style: 'new-york',
-  theme: 'slate',
+  theme: 'blue',
   mode: 'light',
   radius: 0.5,
   threshold: 20,
