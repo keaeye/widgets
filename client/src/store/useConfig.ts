@@ -25,7 +25,7 @@ export const init_config: Config = {
   system: true,
   direction: 'ltr',
   blogTheme: 'tailwind',
-  blogList: 'list',
+  blogList: 'grid',
   search: []
 }
 
