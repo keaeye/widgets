@@ -3,7 +3,7 @@ function actions(router, config, setConfig, t) {
     {
       id: "home",
       // name: t('home'),
-      name: 'home',
+      name: '文章',
       shortcut: ["h"],
       keywords: "home index",
       perform: () => router("/"),
@@ -31,7 +31,7 @@ function actions(router, config, setConfig, t) {
     {
       id: "writing",
       // name: t('writing'),
-      name: 'writing',
+      name: '文章',
       shortcut: ["h"],
       keywords: "writing",
       perform: () => router("writing"),
@@ -59,7 +59,7 @@ function actions(router, config, setConfig, t) {
     {
       id: "contact",
       // name: t('contact'),
-      name: 'contact',
+      name: '邮箱',
       shortcut: ["c"],
       keywords: "email",
       perform: () => window.open("mailto:chen050124@gmail.com"),
