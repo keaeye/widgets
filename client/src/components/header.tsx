@@ -226,7 +226,7 @@ function SearchButtonUseKBar() {
 function GithubSourceCodeUrl() {
   return (
     <>
-      <Button onClick={() => window.location.href = "https://github.com/rookieroo/widgets"} variant="ghost" className="flex rounded-full border dark:border-grey-600 px-2 bg-primary aspect-[1] items-center justify-center t-primary bg-button">
+      <Button onClick={() => window.location.href = "https://github.com/keaeye"} variant="ghost" className="flex rounded-full border dark:border-grey-600 px-2 bg-primary aspect-[1] items-center justify-center t-primary bg-button">
         <LinkIcon className="h-4 w-4 dark:text-white" />
         <span className="sr-only">Github Source Code</span>
       </Button>
