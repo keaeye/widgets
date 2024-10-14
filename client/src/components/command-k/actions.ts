@@ -31,7 +31,7 @@ function actions(router, config, setConfig, t) {
     {
       id: "writing",
       // name: t('writing'),
-      name: '文章',
+      name: '写作',
       shortcut: ["h"],
       keywords: "writing",
       perform: () => router("writing"),
